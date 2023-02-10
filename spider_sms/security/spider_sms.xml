@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="1">
+    
+        <record model="res.groups" id="group_spider_sms_amdin">
+            <field name="name">Spider SMS group administrator</field>
+            <field name="users" eval="[Command.link(ref('base.user_root')), Command.link(ref('base.user_admin'))]"/>
+        </record>
+        
+        <record model="res.groups" id="group_spider_sms_user">
+            <field name="name">Spider SMS users</field>
+        </record>
+    
+    </data>
+    
+</odoo>

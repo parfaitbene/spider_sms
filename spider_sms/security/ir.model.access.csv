@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_spider_sms_sms_admin,spider_sms.spider_sms_sms.admin,model_spider_sms_sms,group_spider_sms_amdin,1,1,1,1
+access_spider_sms_sms_user,spider_sms.spider_sms_sms.user,model_spider_sms_sms,group_spider_sms_user,1,1,1,0
